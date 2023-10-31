@@ -1,0 +1,98 @@
+.phone {
+  width: 325px;
+  height: 667px;
+  border: 8px solid black;
+  border-radius: 36px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #FFF;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0);
+  position: relative;
+  align-items: center;
+}
+
+.phone-header {
+  background-color: black;
+  height: 20px;
+  margin: 0 60px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 50%;
+  position: absolute;
+  top: 0;
+}
+
+.phone-footer {
+  background-color: black;
+  height: 5px;
+  margin: 60px 60px 0;
+  border-radius: 10px;
+}
+
+.phone-screen {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.weather-info {
+  text-align: center;
+}
+
+.weather-info h2 {
+  margin: 10px 0;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
+
+.weather-container {
+  text-align: center;
+}
+
+.current-weather p {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.forecast-container {
+  display: flex;
+  overflow-x: auto; /* Permet de faire défiler horizontalement si l'espace est insuffisant */
+  gap: 10px; /* Ajoute un peu d'espace entre les éléments */
+}
+
+.forecast-item {
+  flex: auto; /* Empêche les éléments de s'étirer ou de se réduire */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center; /* Centre les boutons horizontalement */
+  margin: 10px 0; /* Ajoute de l'espace au-dessus et en dessous des boutons */
+}
+
+.navigation-button {
+  background-color: #000000; /* Couleur d'arrière-plan bleue */
+  color: white; /* Texte blanc */
+  border: none; /* Supprime la bordure */
+  border-radius: 5px; /* Coins arrondis */
+  padding: 10px 20px; /* Espacement intérieur pour rendre le bouton plus grand */
+  margin: 0 80px; /* Ajoute de l'espace entre les boutons */
+  cursor: pointer; /* Change le curseur en main lorsque vous survolez */
+  font-weight: bold; /* Met le texte en gras */
+  transition: background-color 0.2s; /* Animation de changement de couleur */
+}
+
+.navigation-button:hover {
+  background-color: #555557; /* Assombrit le bouton lors du survol */
+}
+
+
